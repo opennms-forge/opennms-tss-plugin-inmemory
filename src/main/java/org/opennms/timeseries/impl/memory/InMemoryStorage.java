@@ -87,6 +87,10 @@ public class InMemoryStorage implements TimeSeriesStorage {
                 .collect(Collectors.toList());
     }
 
+    public Set<Metric> getAllMetrics() {
+        return data.keySet();
+    }
+
     /** Each matcher must be matched by at least one tag. */
     private boolean matches(final Collection<TagMatcher> matchers, final Metric metric) {
         final Set<Tag> searchableTags = new HashSet<>(metric.getIntrinsicTags());

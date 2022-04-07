@@ -11,7 +11,10 @@ It is not meant for production use.
 * compile: ``mvn install``
 * activation: Enable the timeseries integration layer: see [documentation](https://docs.opennms.org/opennms/releases/26.1.0/guide-admin/guide-admin.html#ga-opennms-operation-timeseries)
 * activate in Karaf shell: ``bundle:install -s mvn:org.opennms.plugins.tss/inmemory/2.0.0-SNAPSHOT``
-* show statistics in Karaf shell: ``opennms-tss-inmemory:stats``
+* 
+#### Karaf commands
+* show statistics: ``opennms-tss-inmemory:stats``
+* show all metrics: ``opennms-tss-inmemory:metrics``
 
   
  
