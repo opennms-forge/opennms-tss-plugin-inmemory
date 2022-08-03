@@ -9,7 +9,7 @@ It is not meant for production use.
 
 ### Usage
 * compile: ``mvn install``
-* activation: Enable the timeseries integration layer: see [documentation](https://docs.opennms.org/opennms/releases/26.1.0/guide-admin/guide-admin.html#ga-opennms-operation-timeseries)
+* activation: Enable the timeseries integration layer: see [documentation](https://docs.opennms.com/horizon/latest/deployment/time-series-storage/timeseries/configuration.html)
 * activate in Karaf shell: ``bundle:install -s mvn:org.opennms.plugins.tss/inmemory/2.0.0-SNAPSHOT``
 * 
 #### Karaf commands
